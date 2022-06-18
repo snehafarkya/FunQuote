@@ -37,9 +37,9 @@ export default function Contact() {
               <button onclick="click()" class="flex mx-auto text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Submit</button>
             </div>
             <div class="p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center">
-              <a class="text-indigo-500" href="mailto:snhafarkya@gmail.com">snhafarkya@gmail.com</a>
+              <a class="text-pink-900 font-bold" href="mailto:snhafarkya@gmail.com">snhafarkya@gmail.com</a>
               <br/>
-              <a class="text-indigo-500" href="https://www.github.com/snehafarkya">Github</a><br/>
+              <a class="text-pink-900 font-bold" href="https://www.github.com/snehafarkya">Github</a><br/>
               
             </div>
           </div>
