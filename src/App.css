@@ -36,3 +36,11 @@
     transform: rotate(360deg);
   }
 }
+.sec{
+  background-image: url('https://cdn3.vectorstock.com/i/1000x1000/84/97/frame-on-vintage-background-with-floral-patterns-vector-9208497.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+width: 99vw;
+  min-height: 100vh;
+ 
+}
