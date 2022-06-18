@@ -1,8 +1,11 @@
 import React from 'react'
+import Footer from './Footer'
+import Navbar from './Navbar'
 
 export default function Contact() {
   return (
     <div>
+        <Navbar />
         <form name="contact" method="POST" data-netlify="true">
     <section class="text-gray-600 body-font relative " id="contact">
       <div class="container px-5 py-24 mx-auto">
@@ -43,6 +46,8 @@ export default function Contact() {
         </div>
       </div>
     </section>
-  </form></div>
+  </form>
+  <Footer />
+  </div>
   )
 }
