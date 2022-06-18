@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from "react";
+import Footer from "./Footer";
 import Head from "./Head";
+import Navbar from "./Navbar";
 const url = "https://api.quotable.io/random";
 
 const Quote = () => {
@@ -28,8 +30,8 @@ const Quote = () => {
   const { content, author } = quotes;
   return (
    
-    <div className="container">
-         <Head />
+    <div className="containr">
+         <Navbar />
     <div className="box-centerside">
       <section class="sec text-gray-600 body-font">
   <div class="container px-5 py-24 mx-auto text">
@@ -45,6 +47,7 @@ const Quote = () => {
   </div>
 </section>
     </div>
+    <Footer />
     </div>
   );
 };

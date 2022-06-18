@@ -1,12 +1,19 @@
 .App {
   text-align: center;
+  background-image: url('https://c1.wallpaperflare.com/preview/451/968/45/water-pink-background-soothing.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
-
+nav{
+  color: black;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -43,4 +50,7 @@
 width: 99vw;
   min-height: 100vh;
  
+}
+.container{
+  margin-top: 1.6em;
 }
